@@ -13,9 +13,9 @@ s.author           = { 'aidongsheng' => 'coding_ai@qq.com' }
 s.source           = { :git => 'https://github.com/aidongsheng/adsTabbarController.git', :tag => s.version }
 
 s.ios.deployment_target = '8.0'
-s.resource_bundles = {
-'adsTabbarController' => ['adsTabbarController/Assets/**/*.xcassets']
-}
+#s.resource_bundles = {
+#'adsTabbarController' => ['adsTabbarController/Assets/**/*.xcassets']
+#}
 s.source_files = 'adsTabbarController/Classes/**/*.{h,m}'
 
 end
