@@ -1,0 +1,16 @@
+PODS:
+  - adsTabbarController (0.0.1)
+
+DEPENDENCIES:
+  - adsTabbarController (from `../`)
+
+EXTERNAL SOURCES:
+  adsTabbarController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  adsTabbarController: c706c3c337adcf53a41402d8dfbef59a09b96cce
+
+PODFILE CHECKSUM: cd52970e1d99083f503c00e60ffacdc00e989dd2
+
+COCOAPODS: 1.2.1
