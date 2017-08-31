@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		348FD17607BC43F1B2710498511A1B46 /* adsTabbarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75434C2156C5A82B9EC97D1389380F1D /* adsTabbarController-dummy.m */; };
-		3E564368C2A2BB88CFB174B4FEFA8EF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A46F1CE85AB4C119FF26ECE11C0D6A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B1ACAAC6FB35AED7317408F024D1DC5D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 69204FD2C6128051E037ACA7C855F2E8 /* ReplaceMe.m */; };
+		B219936862A90E2783CACD1FA162FB7E /* adsTabbarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B4575F680E63F0AF73F3E5B247489E /* adsTabbarController-dummy.m */; };
+		CC4827CC6F06D1BEF256E439EA2B548E /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603B7C1AA7AC21B0334D6F55E0E6872A /* image.xcassets */; };
 		D32F52366364B4ACD5E72B25EA13922A /* Pods-adsTabbarController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD07F6C703AF171F29CE845F297853 /* Pods-adsTabbarController_Example-dummy.m */; };
+		DE72FF7B67F69E871AA3F01B23BE7A29 /* adsTabbarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9098D211130E90486610321229122C22 /* adsTabbarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDA28AD2FE1B93DE3BA50F311547802F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F65900D37E2B41B1FA5288A72B58B690 /* adsTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4498CDFA5F7DBC9D0A19B11C3C0F313 /* adsTabbarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -19,30 +21,48 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BA68999A6731BF75FBCD731AEA97FA6D;
+			remoteGlobalIDString = F999EDABD58F79D862F3E1F7F4CE6524;
 			remoteInfo = adsTabbarController;
+		};
+		4814EB77A4B4119C8BD3B0084CF25AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E21B16D486E5C58DAC399C15B4FD5198;
+			remoteInfo = "adsTabbarController-adsTabbarController";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1E0C9F8DF5EB445E94E12DF5BED7150B /* Pods-adsTabbarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-adsTabbarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		439DA301BF75668487EF681F1238089A /* libadsTabbarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libadsTabbarController.a; path = libadsTabbarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		55CFBEBF79BF8D42912650922F4F3E31 /* adsTabbarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "adsTabbarController-prefix.pch"; sourceTree = "<group>"; };
+		1F8EE31301E245A87B50AFFD8281AF63 /* adsTabbarController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = adsTabbarController.bundle; path = adsTabbarController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		22108C8E973D4A6D5E8C45F204F79B2B /* adsTabbarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "adsTabbarController-prefix.pch"; sourceTree = "<group>"; };
+		46B4575F680E63F0AF73F3E5B247489E /* adsTabbarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "adsTabbarController-dummy.m"; sourceTree = "<group>"; };
 		597B1BB9D8994B3E0CED622BEC1E84AE /* Pods-adsTabbarController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-adsTabbarController_Example-resources.sh"; sourceTree = "<group>"; };
+		603B7C1AA7AC21B0334D6F55E0E6872A /* image.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
 		6462CC8CC0205DE5CA4A8FDC18509384 /* Pods-adsTabbarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-adsTabbarController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		649681C61FCA6DC13A1C89D0DC0CE753 /* Pods-adsTabbarController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-adsTabbarController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69204FD2C6128051E037ACA7C855F2E8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		75434C2156C5A82B9EC97D1389380F1D /* adsTabbarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "adsTabbarController-dummy.m"; sourceTree = "<group>"; };
-		85C4E472749E78E44D92C0DD3B1FF15E /* libPods-adsTabbarController_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-adsTabbarController_Example.a"; path = "libPods-adsTabbarController_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		676300C16C2B2E917098D5DCC71C188A /* ResourceBundle-adsTabbarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-adsTabbarController-Info.plist"; sourceTree = "<group>"; };
+		7F45CD94CAAF18B986B6AD09CE57A221 /* libPods-adsTabbarController_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-adsTabbarController_Example.a"; path = "libPods-adsTabbarController_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86DA9F1F647E9612A7AC2DA0301686FC /* Pods-adsTabbarController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-adsTabbarController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9098D211130E90486610321229122C22 /* adsTabbarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = adsTabbarController.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CC06578FA632EED181BEE0B4C3CF982D /* adsTabbarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = adsTabbarController.xcconfig; sourceTree = "<group>"; };
+		B81C742E670F61002E49892E3684CA8A /* adsTabbarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = adsTabbarController.xcconfig; sourceTree = "<group>"; };
 		DCCD07F6C703AF171F29CE845F297853 /* Pods-adsTabbarController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-adsTabbarController_Example-dummy.m"; sourceTree = "<group>"; };
+		F4498CDFA5F7DBC9D0A19B11C3C0F313 /* adsTabbarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = adsTabbarController.m; sourceTree = "<group>"; };
 		F7CC16A7687CA806AE950E2D43DF80B1 /* Pods-adsTabbarController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-adsTabbarController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FA40884ACD34B9858997BF086E9E7BC7 /* libadsTabbarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libadsTabbarController.a; path = libadsTabbarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4736940B1A67D5004587D07367CD58DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8E9895A78C8EB59294CFB0AB5DBD2E6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,61 +71,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AEC329130108F062561AD9ED3CE24A2 /* Frameworks */ = {
+		915E8BE140B165ED463113FA1F42ADE3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E564368C2A2BB88CFB174B4FEFA8EF9 /* Foundation.framework in Frameworks */,
+				EDA28AD2FE1B93DE3BA50F311547802F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F9CEA33A4FBA1734F78DC8A8C0A29A0 /* adsTabbarController */ = {
+		07921683766FB2B75B649CE04423E7D1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				76B597071696C15F9C2F441ABB57797F /* adsTabbarController */,
-				D22BF533E832809B433CFF2803E2F900 /* Support Files */,
-			);
-			name = adsTabbarController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2533CAD25E1A887174D637B5124778C4 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				69204FD2C6128051E037ACA7C855F2E8 /* ReplaceMe.m */,
+				9098D211130E90486610321229122C22 /* adsTabbarController.h */,
+				F4498CDFA5F7DBC9D0A19B11C3C0F313 /* adsTabbarController.m */,
 			);
 			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		5E0F72F64BA3CDFA2B214665FCEEAC0F /* Products */ = {
+		2E1AD4E024083182DCA0CC8D7B07BAFD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				439DA301BF75668487EF681F1238089A /* libadsTabbarController.a */,
-				85C4E472749E78E44D92C0DD3B1FF15E /* libPods-adsTabbarController_Example.a */,
+				1F8EE31301E245A87B50AFFD8281AF63 /* adsTabbarController.bundle */,
+				FA40884ACD34B9858997BF086E9E7BC7 /* libadsTabbarController.a */,
+				7F45CD94CAAF18B986B6AD09CE57A221 /* libPods-adsTabbarController_Example.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		76B597071696C15F9C2F441ABB57797F /* adsTabbarController */ = {
+		3D595BCCF54B55BF85110D71BF6C8214 /* adsTabbarController */ = {
 			isa = PBXGroup;
 			children = (
-				2533CAD25E1A887174D637B5124778C4 /* Classes */,
+				D8D8940C7A19BF4D07B5BA173D3C936B /* Assets */,
 			);
 			name = adsTabbarController;
 			path = adsTabbarController;
+			sourceTree = "<group>";
+		};
+		4405BC3DECF35E71FD747D2353DC1D66 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B310FA417CF146883A78B3E371C10FA /* adsTabbarController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7B310FA417CF146883A78B3E371C10FA /* adsTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				B162C1D85E18318473C6748F94DFC09E /* adsTabbarController */,
+				DCA673987B5D8AE87C92EBF3F90502F9 /* Resources */,
+				BFD93A4F05FF5AED697D8702AADA741E /* Support Files */,
+			);
+			name = adsTabbarController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E481937DC3FE882AE22D497139926A37 /* Development Pods */,
+				4405BC3DECF35E71FD747D2353DC1D66 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				5E0F72F64BA3CDFA2B214665FCEEAC0F /* Products */,
+				2E1AD4E024083182DCA0CC8D7B07BAFD /* Products */,
 				88FD2C563A9BB8291F60D68B9CCABB30 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -133,6 +164,15 @@
 			path = "Target Support Files/Pods-adsTabbarController_Example";
 			sourceTree = "<group>";
 		};
+		B162C1D85E18318473C6748F94DFC09E /* adsTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				07921683766FB2B75B649CE04423E7D1 /* Classes */,
+			);
+			name = adsTabbarController;
+			path = adsTabbarController;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,12 +181,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D22BF533E832809B433CFF2803E2F900 /* Support Files */ = {
+		BFD93A4F05FF5AED697D8702AADA741E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CC06578FA632EED181BEE0B4C3CF982D /* adsTabbarController.xcconfig */,
-				75434C2156C5A82B9EC97D1389380F1D /* adsTabbarController-dummy.m */,
-				55CFBEBF79BF8D42912650922F4F3E31 /* adsTabbarController-prefix.pch */,
+				B81C742E670F61002E49892E3684CA8A /* adsTabbarController.xcconfig */,
+				46B4575F680E63F0AF73F3E5B247489E /* adsTabbarController-dummy.m */,
+				22108C8E973D4A6D5E8C45F204F79B2B /* adsTabbarController-prefix.pch */,
+				676300C16C2B2E917098D5DCC71C188A /* ResourceBundle-adsTabbarController-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/adsTabbarController";
@@ -160,15 +201,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E481937DC3FE882AE22D497139926A37 /* Development Pods */ = {
+		D8D8940C7A19BF4D07B5BA173D3C936B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				0F9CEA33A4FBA1734F78DC8A8C0A29A0 /* adsTabbarController */,
+				603B7C1AA7AC21B0334D6F55E0E6872A /* image.xcassets */,
 			);
-			name = "Development Pods";
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DCA673987B5D8AE87C92EBF3F90502F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D595BCCF54B55BF85110D71BF6C8214 /* adsTabbarController */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D91E0EA685ABCE5D134D4A847D29761 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE72FF7B67F69E871AA3F01B23BE7A29 /* adsTabbarController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		1DA7A703830B3ABBB77EDDC55E1E77C9 /* Pods-adsTabbarController_Example */ = {
@@ -185,23 +246,42 @@
 			);
 			name = "Pods-adsTabbarController_Example";
 			productName = "Pods-adsTabbarController_Example";
-			productReference = 85C4E472749E78E44D92C0DD3B1FF15E /* libPods-adsTabbarController_Example.a */;
+			productReference = 7F45CD94CAAF18B986B6AD09CE57A221 /* libPods-adsTabbarController_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BA68999A6731BF75FBCD731AEA97FA6D /* adsTabbarController */ = {
+		E21B16D486E5C58DAC399C15B4FD5198 /* adsTabbarController-adsTabbarController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E8B0CA40F62C2C617E8E1A7764E93F0 /* Build configuration list for PBXNativeTarget "adsTabbarController" */;
+			buildConfigurationList = 1291FFD3F0D4AF7E80DFB4AB5582BA93 /* Build configuration list for PBXNativeTarget "adsTabbarController-adsTabbarController" */;
 			buildPhases = (
-				9E7442EA9A08642C420D188C20719A72 /* Sources */,
-				9AEC329130108F062561AD9ED3CE24A2 /* Frameworks */,
+				216121C00F8360A3E901D140EC819030 /* Sources */,
+				4736940B1A67D5004587D07367CD58DD /* Frameworks */,
+				169DC177FB1949372A0FF971E7B9AC41 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "adsTabbarController-adsTabbarController";
+			productName = "adsTabbarController-adsTabbarController";
+			productReference = 1F8EE31301E245A87B50AFFD8281AF63 /* adsTabbarController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F999EDABD58F79D862F3E1F7F4CE6524 /* adsTabbarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7ED9D71E16429CB693BABE63A745701 /* Build configuration list for PBXNativeTarget "adsTabbarController" */;
+			buildPhases = (
+				65BD8763FCC1C56E487F26CD6D78F321 /* Sources */,
+				915E8BE140B165ED463113FA1F42ADE3 /* Frameworks */,
+				7D91E0EA685ABCE5D134D4A847D29761 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				566F6CDD5F47D1BAA14C061B81D98428 /* PBXTargetDependency */,
+			);
 			name = adsTabbarController;
 			productName = adsTabbarController;
-			productReference = 439DA301BF75668487EF681F1238089A /* libadsTabbarController.a */;
+			productReference = FA40884ACD34B9858997BF086E9E7BC7 /* libadsTabbarController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -221,23 +301,42 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5E0F72F64BA3CDFA2B214665FCEEAC0F /* Products */;
+			productRefGroup = 2E1AD4E024083182DCA0CC8D7B07BAFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA68999A6731BF75FBCD731AEA97FA6D /* adsTabbarController */,
+				F999EDABD58F79D862F3E1F7F4CE6524 /* adsTabbarController */,
+				E21B16D486E5C58DAC399C15B4FD5198 /* adsTabbarController-adsTabbarController */,
 				1DA7A703830B3ABBB77EDDC55E1E77C9 /* Pods-adsTabbarController_Example */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		169DC177FB1949372A0FF971E7B9AC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4827CC6F06D1BEF256E439EA2B548E /* image.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		9E7442EA9A08642C420D188C20719A72 /* Sources */ = {
+		216121C00F8360A3E901D140EC819030 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				348FD17607BC43F1B2710498511A1B46 /* adsTabbarController-dummy.m in Sources */,
-				B1ACAAC6FB35AED7317408F024D1DC5D /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65BD8763FCC1C56E487F26CD6D78F321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B219936862A90E2783CACD1FA162FB7E /* adsTabbarController-dummy.m in Sources */,
+				F65900D37E2B41B1FA5288A72B58B690 /* adsTabbarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,35 +354,18 @@
 		498BE26D3F9461C6CBC55AA66647BAC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = adsTabbarController;
-			target = BA68999A6731BF75FBCD731AEA97FA6D /* adsTabbarController */;
+			target = F999EDABD58F79D862F3E1F7F4CE6524 /* adsTabbarController */;
 			targetProxy = 184AF7C878FB259FC4341B61959A9D1D /* PBXContainerItemProxy */;
+		};
+		566F6CDD5F47D1BAA14C061B81D98428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "adsTabbarController-adsTabbarController";
+			target = E21B16D486E5C58DAC399C15B4FD5198 /* adsTabbarController-adsTabbarController */;
+			targetProxy = 4814EB77A4B4119C8BD3B0084CF25AE0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0CBFF1A7076B2C39F7B3B8D1B6D620D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC06578FA632EED181BEE0B4C3CF982D /* adsTabbarController.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/adsTabbarController/adsTabbarController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		110F4631A530B6427CA4F156B5CCE0B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E0C9F8DF5EB445E94E12DF5BED7150B /* Pods-adsTabbarController_Example.debug.xcconfig */;
@@ -302,6 +384,29 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1FD7723D22DFA172980299B43FCBCE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81C742E670F61002E49892E3684CA8A /* adsTabbarController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/adsTabbarController/adsTabbarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -355,19 +460,19 @@
 			};
 			name = Debug;
 		};
-		6C7CD6C550CDF168567F6E824B5B2709 /* Debug */ = {
+		5BD447334E41CECF989920704FE447CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC06578FA632EED181BEE0B4C3CF982D /* adsTabbarController.xcconfig */;
+			baseConfigurationReference = B81C742E670F61002E49892E3684CA8A /* adsTabbarController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/adsTabbarController/adsTabbarController-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -376,7 +481,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -422,6 +527,40 @@
 			};
 			name = Release;
 		};
+		AAD9138EC2C24FA5A49A049EA073DCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81C742E670F61002E49892E3684CA8A /* adsTabbarController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/adsTabbarController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/adsTabbarController/ResourceBundle-adsTabbarController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = adsTabbarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E75A3393EFDE652210CF68DE3392390A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81C742E670F61002E49892E3684CA8A /* adsTabbarController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/adsTabbarController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/adsTabbarController/ResourceBundle-adsTabbarController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = adsTabbarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		F77E6448849FDC8ED692642F66E9E32F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6462CC8CC0205DE5CA4A8FDC18509384 /* Pods-adsTabbarController_Example.release.xcconfig */;
@@ -448,6 +587,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1291FFD3F0D4AF7E80DFB4AB5582BA93 /* Build configuration list for PBXNativeTarget "adsTabbarController-adsTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD9138EC2C24FA5A49A049EA073DCCC /* Debug */,
+				E75A3393EFDE652210CF68DE3392390A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -457,20 +605,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E8B0CA40F62C2C617E8E1A7764E93F0 /* Build configuration list for PBXNativeTarget "adsTabbarController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6C7CD6C550CDF168567F6E824B5B2709 /* Debug */,
-				0CBFF1A7076B2C39F7B3B8D1B6D620D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B7D893E62C848EC494AA96F2CAAF7236 /* Build configuration list for PBXNativeTarget "Pods-adsTabbarController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				110F4631A530B6427CA4F156B5CCE0B7 /* Debug */,
 				F77E6448849FDC8ED692642F66E9E32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7ED9D71E16429CB693BABE63A745701 /* Build configuration list for PBXNativeTarget "adsTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD7723D22DFA172980299B43FCBCE87 /* Debug */,
+				5BD447334E41CECF989920704FE447CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

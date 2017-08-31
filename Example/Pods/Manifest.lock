@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  adsTabbarController: c706c3c337adcf53a41402d8dfbef59a09b96cce
+  adsTabbarController: 795bcc6011e25d06f44b5f37f87dc1d4ab42c3a3
 
 PODFILE CHECKSUM: cd52970e1d99083f503c00e60ffacdc00e989dd2
 

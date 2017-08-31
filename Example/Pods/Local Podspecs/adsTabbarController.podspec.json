@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
+  "resource_bundles": {
+    "adsTabbarController": [
+      "adsTabbarController/Assets/**/*.xcassets"
+    ]
+  },
   "source_files": "adsTabbarController/Classes/**/*.{h,m}"
 }
