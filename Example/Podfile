@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'adsTabbarController_Example' do
+  pod 'adsTabbarController', :path => '../'
+
+  target 'adsTabbarController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
