@@ -1,6 +1,6 @@
 {
   "name": "adsTabbarController",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "51车生活项目tabbarcontroller",
   "description": "TODO: 51车生活项目tabbarcontroller",
   "homepage": "https://github.com/aidongsheng/adsTabbarController",
@@ -13,15 +13,10 @@
   },
   "source": {
     "git": "https://github.com/aidongsheng/adsTabbarController.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
-  },
-  "resource_bundles": {
-    "adsTabbarController": [
-      "adsTabbarController/Assets/**/*.xcassets"
-    ]
   },
   "source_files": "adsTabbarController/Classes/**/*.{h,m}"
 }

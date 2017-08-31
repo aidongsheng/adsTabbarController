@@ -1,5 +1,5 @@
 PODS:
-  - adsTabbarController (0.0.1)
+  - adsTabbarController (0.0.2)
 
 DEPENDENCIES:
   - adsTabbarController (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  adsTabbarController: 795bcc6011e25d06f44b5f37f87dc1d4ab42c3a3
+  adsTabbarController: f603f8b20a082b01c912f68c95b5387d2a534574
 
 PODFILE CHECKSUM: cd52970e1d99083f503c00e60ffacdc00e989dd2
 

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # adsTabbarController
 
 [![CI Status](http://img.shields.io/travis/aidongsheng/adsTabbarController.svg?style=flat)](https://travis-ci.org/aidongsheng/adsTabbarController)
@@ -28,6 +28,3 @@ aidongsheng, coding_ai@qq.com
 ## License
 
 adsTabbarController is available under the MIT license. See the LICENSE file for more info.
-=======
-# adsTabbarController
->>>>>>> da141fb7e2f5c6c66cad7564a1893302a903af9c
